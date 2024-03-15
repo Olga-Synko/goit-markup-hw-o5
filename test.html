@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/test.css" />
+  </head>
+  <body>
+    <div class="backdrop is-open ">
+      <div class="modal">
+        <button class="form-button" type="submit">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close-icon"></use>
+          </svg>
+        </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
+        <form class="form" name="issue_report_form" autocomplete="off">
+          <label class="form-label" for="name">Name</label>
+          <div class="form-wrapper">
+            <input class="form-input" id="name" type="text" name="name" />
+            <svg class="form-icon" width="18" hight="24">
+              <use href="./images/icons.svg#person-icon"></use>
+            </svg>
+          </div>
+
+          <label class="form-label" for="phone">Phone</label>
+          <div class="form-wrapper">
+            <input class="form-input" id="phone" type="tel" name="phone" />
+            <svg class="form-icon" width="18" hight="24">
+              <use href="./images/icons.svg#phone-icon"></use>
+            </svg>
+          </div>
+
+          <label class="form-label" for="email">Email</label>
+          <div class="form-wrapper">
+            <input class="form-input" id="email" type="email" name="email" />
+            <svg class="form-icon" width="18" hight="24">
+              <use href="./images/icons.svg#email-icon"></use>
+            </svg>
+          </div>
+
+          <label class="form-label" for="comment">Comment</label>
+          <textarea
+            class="form-textarea"
+            id="comment"
+            name="comment"
+            placeholder="Text input"
+            rows=""
+          ></textarea>
+          <div class="form-checkbox-container">
+          <input
+    class="form-checkbox visually-hidden"
+    type="checkbox"
+    name="privacy"
+    value="true"
+    id="user-privacy"
+  />
+
+          <label class="form-label-checkbox" for="privacy">
+            <input class="form-text" type="checkbox" name="checkmark" value="checkmark">
+            I accept the terms and conditions of the
+            <a class="form-link-privacy" href="#">Privacy Policy</a></label
+          >
+        </div>
+          <button class="form-sendbutton" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- <div class="form-checkbox-container">
+  <input
+    class="form-checkbox visually-hidden"
+    type="checkbox"
+    name="user-privacy"
+    value="true"
+    id="user-privacy"
+  />
+  <label class="form-checkbox-label" for="user-privacy">
+    <span class="checkbox-empty">
+      <svg class="input-checkbox-icon" width="10" height="8">
+        <use href="./images/icons.svg#checkbox-icon"></use>
+      </svg>
+    </span>
+    I accept the terms and conditions of the
+    <a href="" class="form-text-link">Privacy Policy</a></label
+  >
+</div> -->
