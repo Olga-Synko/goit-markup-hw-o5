@@ -607,6 +607,9 @@ fill: #2e2f42;
   max-width: 408px;
   padding: 16px 24px;
 }
+.textarea-container{
+  margin-bottom: 16px;
+}
 .form-label {
   margin-bottom: 4px;
   color: #8e8f99;
@@ -712,10 +715,10 @@ fill: #2e2f42;
 }
 .form-checkbox:checked + .form-label-checkbox > .checkbox-empty {
   fill:  var(--main-color);
-  background-color: var(--main-color);
+  background-color: #404bbf;;
   border: none;
   fill: #f4f4fd;
-  border-color: #404bbf;
+  
 }
 .form-link-privacy {
   color: #4d5ae5;
