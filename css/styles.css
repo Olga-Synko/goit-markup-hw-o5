@@ -727,6 +727,7 @@ fill: #2e2f42;
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-weight: 500;
+  display: block;
 }
 .form-sendbutton:hover,
 .form-sendbutton:focus {
